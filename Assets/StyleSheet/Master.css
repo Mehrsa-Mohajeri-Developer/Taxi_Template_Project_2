@@ -1,0 +1,708 @@
+.first-section {
+  background-image: url(../Images/avada-taxi-homepage-hero.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+.first-section > .dark {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.31);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.first-section > .row {
+  position: relative;
+}
+.first-section > .row > * {
+  width: 100%;
+  padding: 20px 50px;
+}
+.first-section > .row > header .row > * {
+  height: 120px;
+}
+.first-section > .row > header .row > figure {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+.first-section > .row > header .row > figure > img {
+  width: 25%;
+  height: 55%;
+}
+.first-section > .row > header .row > nav {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+}
+.first-section > .row > header .row > nav > ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-section > .row > header .row > nav > ul > li {
+  padding: 0 15px;
+}
+.first-section > .row > header .row > nav > ul > li > a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  transition: 0.4s;
+}
+.first-section > .row > header .row > nav > ul > li > a:hover {
+  color: #feba12;
+}
+.first-section > .row > header .row > section {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding-right: 130px;
+}
+.first-section > .row > header .row > section > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #feba12;
+  transition: 0.4s;
+}
+.first-section > .row > header .row > section > a:hover {
+  background-color: #ffd875;
+}
+.first-section > section {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.first-section > section > h1 {
+  font-weight: bolder;
+  margin-top: 60px;
+  font-size: 60px;
+  color: white;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.first-section > section > h1 > strong {
+  color: #feba12;
+}
+.first-section > section > h2 {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+.first-section .row {
+  justify-content: center;
+}
+.first-section .row > .box {
+  margin-top: 30px;
+  width: 70%;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.first-section .row > .box > .row:nth-of-type(1) > div:nth-of-type(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background-color: #feba12;
+  border-radius: 10px;
+}
+.first-section .row > .box > .row:nth-of-type(1) > div:nth-of-type(1) > .row > div:nth-of-type(1) {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 150px;
+}
+.first-section .row > .box > .row:nth-of-type(1) > div:nth-of-type(1) > .row > div:nth-of-type(2) {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+}
+.first-section .row > .box > .row:nth-of-type(1) > div:nth-of-type(1) > .row > div:nth-of-type(3) {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  font-size: 80px;
+  font-weight: bolder;
+  text-align: center;
+}
+.first-section .row > .box > .row:nth-of-type(1) > div:nth-of-type(1) > .row > div:nth-of-type(4) {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 25px;
+  text-align: center;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(1) {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 300px;
+  z-index: 44;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(1) .row > div {
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 100%;
+  height: 30px;
+  justify-content: start;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(1) .row > input {
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #feba12;
+  transition: 0.4s;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(1) .row > input:hover {
+  border-color: #886b20;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(1) .row > p {
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 300px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(2) {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 44;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(2) .row > div {
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 100%;
+  height: 30px;
+  justify-content: start;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(2) .row > input {
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #feba12;
+  transition: 0.4s;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(2) .row > input:hover {
+  border-color: #886b20;
+}
+.first-section .row > .box > .row:nth-of-type(2) > div:nth-of-type(2) .row a {
+  margin-top: 40px;
+  width: 120px;
+  height: 40px;
+  background-color: #feba12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.second-section {
+  width: 100%;
+  height: 120vh;
+}
+.second-section > .row {
+  justify-content: space-evenly;
+}
+.second-section > .row > div:nth-of-type(1) {
+  margin-top: 300px;
+  width: 300px;
+  height: 450px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 10px;
+  transition: 1s;
+}
+.second-section > .row > div:nth-of-type(1):hover {
+  transform: translateY(-10px);
+  background-color: #feba12;
+}
+.second-section > .row > div:nth-of-type(1):hover > span:nth-of-type(2) {
+  color: black;
+}
+.second-section > .row > div:nth-of-type(1) > h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+.second-section > .row > div:nth-of-type(1) > span:nth-of-type(1) {
+  display: flex;
+  font-weight: lighter;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5px;
+  color: #a6a49f;
+}
+.second-section > .row > div:nth-of-type(1) > p {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  color: rgb(103, 103, 103);
+}
+.second-section > .row > div:nth-of-type(1) > h3 {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.second-section > .row > div:nth-of-type(1) > span:nth-of-type(2) {
+  font-size: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  color: #feba12;
+  margin-top: 5px;
+  transition: 1s;
+}
+.second-section > .row > div:nth-of-type(2) {
+  margin-top: 300px;
+  width: 300px;
+  height: 450px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 10px;
+  transition: 1s;
+}
+.second-section > .row > div:nth-of-type(2):hover {
+  transform: translateY(-10px);
+  background-color: #feba12;
+}
+.second-section > .row > div:nth-of-type(2):hover > span:nth-of-type(2) {
+  color: black;
+}
+.second-section > .row > div:nth-of-type(2) > h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+.second-section > .row > div:nth-of-type(2) > span:nth-of-type(1) {
+  display: flex;
+  font-weight: lighter;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5px;
+  color: #a6a49f;
+}
+.second-section > .row > div:nth-of-type(2) > p {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  color: rgb(103, 103, 103);
+}
+.second-section > .row > div:nth-of-type(2) > h3 {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.second-section > .row > div:nth-of-type(2) > span:nth-of-type(2) {
+  font-size: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  color: #feba12;
+  margin-top: 5px;
+  transition: 1s;
+}
+.second-section > .row > div:nth-of-type(3) {
+  margin-top: 300px;
+  width: 300px;
+  height: 450px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 10px;
+  transition: 1s;
+}
+.second-section > .row > div:nth-of-type(3):hover {
+  transform: translateY(-10px);
+  background-color: #feba12;
+}
+.second-section > .row > div:nth-of-type(3):hover > span:nth-of-type(2) {
+  color: black;
+}
+.second-section > .row > div:nth-of-type(3) > h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+.second-section > .row > div:nth-of-type(3) > span:nth-of-type(1) {
+  display: flex;
+  font-weight: lighter;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5px;
+  color: #a6a49f;
+}
+.second-section > .row > div:nth-of-type(3) > p {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  color: rgb(103, 103, 103);
+}
+.second-section > .row > div:nth-of-type(3) > h3 {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.second-section > .row > div:nth-of-type(3) > span:nth-of-type(2) {
+  font-size: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  color: #feba12;
+  margin-top: 5px;
+  transition: 1s;
+}
+
+.third-section {
+  width: 100%;
+  height: 45vh;
+  background-image: url(../Images/avada-taxi-stats-background.jpg);
+  background-size: cover;
+}
+.third-section .row {
+  justify-content: space-evenly;
+}
+.third-section .row > div {
+  margin-top: 60px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.third-section .row > div:hover {
+  background-color: white;
+}
+.third-section .row > div:hover > h2 {
+  color: black;
+}
+.third-section .row > div:hover > h3 {
+  color: black;
+}
+.third-section .row > div > h2 {
+  font-size: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  transition: 0.4s;
+}
+.third-section .row > div h3 {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.forth-section {
+  width: 100%;
+  height: 65vh;
+  background-image: url(../Images/avada-taxi-app-background.jpg);
+  background-size: cover;
+}
+.forth-section .row {
+  justify-content: space-evenly;
+}
+.forth-section .row > div:nth-of-type(1) {
+  width: 600px;
+  height: 500px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.forth-section .row > div:nth-of-type(1) > .row > h2 {
+  font-size: 50px;
+  width: 100%;
+  margin-top: 90px;
+  padding-left: 40px;
+}
+.forth-section .row > div:nth-of-type(1) > .row p {
+  font-size: 20px;
+  margin-top: -50px;
+  padding-left: 40px;
+  text-align: justify;
+}
+.forth-section .row > div:nth-of-type(1) > .row a {
+  width: 270px;
+  height: 70px;
+}
+.forth-section .row > div:nth-of-type(1) > .row a > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+.forth-section .row > div:nth-of-type(2) {
+  width: 600px;
+  height: 576px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forth-section .row > div:nth-of-type(2) > img {
+  width: 400px;
+  height: 400px;
+}
+
+.fifth-section {
+  width: 100%;
+  height: 110vh;
+}
+.fifth-section > .row {
+  justify-content: space-evenly;
+}
+.fifth-section > .row > h2 {
+  font-size: 50px;
+  margin-top: 60px;
+}
+.fifth-section > .row div {
+  margin-top: 50px;
+  width: 530px;
+  position: relative;
+  transition: 0.8s;
+}
+.fifth-section > .row div:hover {
+  transform: translateY(-10px);
+}
+.fifth-section > .row div > figure {
+  width: 530px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+.fifth-section > .row div > figure > img {
+  width: 100%;
+  height: 100%;
+}
+.fifth-section > .row div > div {
+  position: absolute;
+}
+.fifth-section > .row div > div a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+.fifth-section > .row div > div span {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.fifth-section > .row div > div p {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.sixth-section {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url(../Images/avada-taxi-testimonials-background.jpg);
+  background-size: cover;
+}
+.sixth-section > .row {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.sixth-section > .row div:nth-of-type(1) > figure {
+  width: 200px;
+  height: 200px;
+}
+.sixth-section > .row div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 1s;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(1) {
+  display: flex;
+  width: 230px;
+  height: 40px;
+  background-color: #3269ff;
+  border-radius: 50px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(1):hover > span:nth-of-type(1) {
+  opacity: 0;
+  margin-top: 0;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(1):hover > span:nth-of-type(2) {
+  opacity: 1;
+  margin-top: -20px;
+  color: black;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(1):hover {
+  background-color: #facf62;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(1) > span {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: 0.4s;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) {
+  margin-top: 10px;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2) {
+  opacity: 0;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(2) {
+  display: flex;
+  width: 170px;
+  height: 40px;
+  background-color: #3269ff;
+  border-radius: 50px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  margin-left: 30px;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(2):hover > span:nth-of-type(1) {
+  opacity: 0;
+  margin-top: 0;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(2):hover > span:nth-of-type(2) {
+  opacity: 1;
+  margin-top: -20px;
+  color: black;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(2):hover {
+  background-color: #facf62;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(2) > span {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: 0.4s;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) {
+  margin-top: 10px;
+}
+.sixth-section > .row div:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(2) {
+  opacity: 0;
+}
+.sixth-section > .row > .row {
+  justify-content: center;
+}
+.sixth-section > .row > .row > div {
+  height: 10px;
+  width: 90%;
+  display: flex;
+}
+.sixth-section > .row > .row > div p {
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+}
+.sixth-section > .row > .row > .row {
+  height: 20px;
+  width: 90%;
+  justify-content: center;
+}
+.sixth-section > .row > .row > .row > ul {
+  display: flex;
+  padding-top: 35px;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(1),
+.sixth-section > .row > .row > .row > ul li:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(1) > a,
+.sixth-section > .row > .row > .row > ul li:nth-of-type(2) > a {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(1) > a > figure,
+.sixth-section > .row > .row > .row > ul li:nth-of-type(2) > a > figure {
+  width: 100%;
+  height: 100%;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(1) > a > figure > img,
+.sixth-section > .row > .row > .row > ul li:nth-of-type(2) > a > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(3) {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(3) > a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(3) > a > figure {
+  width: 100%;
+  height: 100%;
+}
+.sixth-section > .row > .row > .row > ul > li:nth-of-type(3) > a > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Master.css.map */
