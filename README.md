@@ -2,7 +2,7 @@
 
 ![view-1 (2)](https://github.com/Mehrsa-Mohajeri-Developer/Taxi_Template/assets/145048780/33eabefe-ec65-42cc-b1b4-187ffe2d5336)
 ![view-7 (1)](https://github.com/Mehrsa-Mohajeri-Developer/Taxi_Template/assets/145048780/a94a5cef-46de-4649-a643-499971fdc0c4)
-![view-8 (1)](https://github.com/Mehrsa-Mohajeri-Developer/Taxi_Template/assets/145048780/4c1f1c73-23f4-44a9-a7f1-5ec0f3c326a5)
+![view-8 (2)](https://github.com/Mehrsa-Mohajeri-Developer/Taxi_Template/assets/145048780/7e9da11e-0247-47bf-a218-a5ab27ec5262)
 
 - 🔗 [Demo Project](https://mehrsa-mohajeri-developer.github.io/Taxi_Template/)
 
