@@ -6,7 +6,7 @@
 ![view-7 (1)](https://github.com/Mehrsa-Mohajeri-Developer/Taxi_Template/assets/145048780/a94a5cef-46de-4649-a643-499971fdc0c4)
 ![view-8 (2)](https://github.com/Mehrsa-Mohajeri-Developer/Taxi_Template/assets/145048780/7e9da11e-0247-47bf-a218-a5ab27ec5262)
 
-- 🔗 [Demo Project](https://mehrsa-mohajeri-developer.github.io/Taxi_Template/)
+- 🔗 [Demo Project](https://mehrsa-mohajeri-developer.github.io/Taxi_Template_Project_2/)
 
 - 👩🏻‍💻 Developed by Mehrsa Mohajeri
 
